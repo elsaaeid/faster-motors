@@ -1,0 +1,121 @@
+﻿/*------------------------------------------------------------------
+    File Name: custom.css
+-------------------------------------------------------------------*/
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+/*------------------------------------------------------------------
+		4. LOADER
+	-------------------------------------------------------------------*/
+.bg_load {
+  float: left;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader_animation {
+  animation-name: rotatey;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotatey;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotatey;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotatey;
+  -ms-animation-duration: 1s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: rotatey;
+  -o-animation-duration: ​​1s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  border-radius: 200px;
+}
+
+@-webkit-keyframes rotatey {
+  from {
+    -webkit-transform: rotatey(0deg);
+    -moz-transform: rotatey(0deg);
+    -ms-transform: rotatey(0deg);
+    -o-transform: rotatey(0deg);
+    transform: rotatey(0deg);
+  }
+  to {
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    transform: rotatey(360deg);
+  }
+}
+
+@-moz-keyframes rotatey {
+  from {
+    -moz-transform: rotatey(0deg);
+  }
+  to {
+    -moz-transform: rotatey(360deg);
+  }
+}
+
+/*------------------------
+     search-container
+----------------------*/
+.search-container {
+  position: absolute;
+  top: 105px;
+  width: 100%;
+  z-index: 9;
+}
+.top-search {
+  width: 95%;
+  height: 78px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+.top-search .input-group-addon {
+  position: absolute;
+  margin-left: -21px;
+  color: #ffffff;
+}
+i.fa.fa-search.fixed {
+  position: fixed;
+  top: 143px;
+}
+.form-control.fixed {
+  display: block;
+  width: 95%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 33px;
+  background-color: #414141;
+  background-clip: padding-box;
+  color: #fefefe;
+  border: none;
+  position: fixed;
+}
+div#input-group {
+  width: 100%;
+}
+span.input-group-addon.close-search {
+  margin-inline: 1170px;
+  top: 20px;
+  position: absolute;
+  color: #fefefe;
+}
+i.fa.fa-times.fixed {
+  position: fixed;
+  top: 143px;
+}
