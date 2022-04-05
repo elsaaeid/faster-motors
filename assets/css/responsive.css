@@ -49,22 +49,10 @@
     height: 242px;
     padding-top: 38px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-  }
-  .second-content {
-    width: 30%;
-    margin-left: 573px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 242px;
-    padding-top: 38px;
-    position: absolute;
-    top: 1476px;
-    overflow: hidden;
   }
   .third-content {
     width: 30%;
     margin-left: 1098px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     height: 242px;
     padding-top: 38px;
     margin-top: -242px;
@@ -143,22 +131,10 @@
     height: 242px;
     padding-top: 38px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-}
-.second-content {
-    width: 30%;
-    margin-left: 547px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 242px;
-    padding-top: 38px;
-    position: absolute;
-    top: 1476px;
-    overflow: hidden;
 }
 .third-content {
     width: 30%;
     margin-left: 1027px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     height: 242px;
     padding-top: 38px;
     margin-top: -242px;
@@ -204,7 +180,7 @@
 @media screen and (max-width: 1473px) {
 .inner h2 {
     width: 29%;
-    margin-left: 533px;
+    margin-left: 455px;
     text-align: center;
     border-bottom: 1px;
     border-bottom-style: dotted;
@@ -212,11 +188,11 @@
     padding-left: 6px;
     padding-top: 30px;
 }
-   .headline {
+.headline {
     position: absolute;
     top: 340px;
     color: #ffffffbf;
-    left: 35%;
+    left: 31%;
     z-index: 1;
 }
   #shape {
@@ -238,32 +214,22 @@
     color: white;
     font-family: "FontAwesome";
     padding-top: 30px;
-    margin-left: 380px;
+    margin-left: 324px;
 }
 .first-content {
     width: 30%;
     height: 242px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
     left: -3px;
 }
-.second-content {
-    width: 30%;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 242px;
-    position: absolute;
-    top: 1437px;
-    overflow: hidden;
-    left: 100px;
-}
 .third-content {
     width: 30%;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     height: 242px;
     overflow: hidden;
     position: absolute;
-    left: 203px;
+    left: -388px;
+    margin-top: -12px;
 }
 .buy-shape-container {
     width: 68%;
@@ -284,7 +250,7 @@
 @media screen and (max-width: 1467px) {
 .header {
     margin-inline: 0px;
-    width: 1467px;
+    width: 1280px;
     position: fixed;
     z-index: 10;
 }
@@ -304,16 +270,14 @@
 .buy-shape-container {
     width: 68%;
     position: absolute;
-    top: 1748px;
-    height: 536px;
+    top: 1638px;
+    height: 467px;
     left: 210px;
-    background: linear-gradient( 
-270deg
- , #ce1b28bd 0%, #111111de 74%);
+    background: linear-gradient( 270deg , #ce1b28bd 0%, #111111de 74%);
 }
 }
 @media screen and (max-width: 1411px) {
-  #shape {
+#shape {
     position: absolute;
     top: 127px;
     color: rgba(255, 255, 255, 0.5);
@@ -322,18 +286,18 @@
     justify-content: center;
     border-top: 0;
     width: 100%;
-    min-height: 622px;
+    min-height: 632px;
     overflow: hidden;
     text-align: center;
-  }
-  .first-content {
+}
+ .first-content {
     width: 30%;
     height: 242px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
     top: 1301px;
-  }
+    left: 242px;
+}
 }
 @media (max-width: 1148px) {
   .header {
@@ -342,20 +306,9 @@
     position: fixed;
     z-index: 10;
   }
-  .second-content {
-    width: 30%;
-    margin-left: 402px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 242px;
-    padding-top: 38px;
-    position: absolute;
-    top: 1163px;
-    overflow: hidden;
-  }
   .third-content {
     width: 30%;
     margin-left: 756px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     height: 242px;
     padding-top: 38px;
     margin-top: -242px;
@@ -416,22 +369,10 @@
     height: 242px;
     padding-top: 38px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-  }
-  .second-content {
-    width: 30%;
-    margin-left: 360px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 242px;
-    padding-top: 38px;
-    position: absolute;
-    top: 1112px;
-    overflow: hidden;
   }
   .third-content {
     width: 30%;
     margin-left: 694px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     height: 242px;
     padding-top: 38px;
     margin-top: -242px;
@@ -502,24 +443,23 @@
     overflow: hidden;
     text-align: center;
   }
-  /* inner h2*/
-  .inner h2 {
+.inner h2 {
     width: 36%;
-    margin-left: 327px;
+    margin-left: 262px;
     text-align: center;
     border-bottom: 1px;
     border-bottom-style: dotted;
     border-color: #fd242c;
     padding-left: 6px;
     padding-top: 30px;
-  }
+}
 .model-caption {
     width: 50%;
     text-align: center;
     color: white;
     font-family: "FontAwesome";
     padding-top: 30px;
-    margin-left: 260px;
+    margin-left: 229px;
 }
   .content {
     text-align: center;
@@ -537,28 +477,17 @@ img.wow.lightSpeedIn.model-img {
   }
 .first-content {
     width: 34%;
-    margin-left: 10px;
+    margin-left: 178px;
     height: 267px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -65px;
-}
-.second-content {
-    width: 34%;
-    margin-left: 244px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 267px;
-    position: absolute;
-    top: 1250px;
-    overflow: hidden;
+    margin-top: -93px;
 }
 .third-content {
     width: 34%;
-    margin-left: 479px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
+    margin-left: 494px;
     height: 267px;
     padding-top: 38px;
-    margin-top: -6px;
+    margin-top: -34px;
     overflow: hidden;
 }
   .buy-img-container {
@@ -567,15 +496,14 @@ img.wow.lightSpeedIn.model-img {
     padding-top: 0px;
     position: relative;
   }
-  /*buy-shape-container*/
-  .buy-shape-container {
+.buy-shape-container {
     width: 74%;
     position: absolute;
     top: 1566px;
-    height: 407px;
+    height: 326px;
     left: 132px;
     background: linear-gradient(270deg, #ce1b28bd 0%, #111111de 74%);
-  }
+}
   button.shape-button {
     background-color: #9f2332;
     border: none;
@@ -670,6 +598,16 @@ img.wow.lightSpeedIn.model-img {
     line-height: 111px;
     color: #ffffffc4;
   }
+}
+@media screen and (max-width: 912px) {
+.buy-shape-container {
+    width: 74%;
+    position: absolute;
+    top: 1566px;
+    height: 362px;
+    left: 132px;
+    background: linear-gradient(270deg, #ce1b28bd 0%, #111111de 74%);
+}
 }
 @media screen and (max-width: 768px) {
   /*container*/
@@ -786,45 +724,32 @@ section.banner {
   }
 .first-content {
     width: 34%;
-    margin-left: 10px;
-    height: 267px;
+    margin-left: 115px;
+    height: 203px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -215px;
-}
-.second-content {
-    width: 34%;
-    margin-left: 159px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 267px;
-    position: absolute;
-    top: 1082px;
-    overflow: hidden;
+    margin-top: -249px;
 }
 .third-content {
     width: 34%;
-    margin-left: 308px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 267px;
+    margin-left: 516px;
+    height: 202px;
     padding-top: 38px;
-    margin-top: 0px;
+    margin-top: -28px;
     overflow: hidden;
 }
-  .buy-img-container {
+.buy-img-container {
     width: 74%;
-    margin-left: 132px;
+    margin-left: 104px;
     padding-top: 0px;
     position: relative;
- }
+}
 .buy-shape-container {
     width: 74%;
     position: absolute;
     top: 1412px;
     height: 305px;
-    left: 132px;
-    background: linear-gradient(
-270deg
-, #ce1b28bd 0%, #111111de 74%);
+    left: 104px;
+    background: linear-gradient( 270deg , #ce1b28bd 0%, #111111de 74%);
 }
   button.shape-button {
     background-color: #9f2332;
@@ -1746,29 +1671,18 @@ img.wow.slideInUp.model-img {
 }
 .first-content {
     width: 39%;
-    margin-left: 5px;
+    margin-left: 35px;
     height: 166px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -360px;
-}
-.second-content {
-    width: 39%;
-    margin-left: 65px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 166px;
-    position: absolute;
-    top: 941px;
-    overflow: hidden;
+    margin-top: -393px;
 }
 .third-content {
     width: 39%;
-    margin-left: 125px;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 165px;
+    height: 166px;
     padding-top: 38px;
-    margin-top: -10px;
+    margin-top: -45px;
     overflow: hidden;
+    margin-left: 436px;
 }
   .buy-container {
     width: 100%;
@@ -2712,32 +2626,20 @@ img.wow.slideInUp.model-img {
 }
 .first-content {
     width: 39%;
-    height: 87px;
+    height: 116px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 684px;
-    left: -91px;
-}
-.second-content {
-    width: 40%;
-    height: 87px;
-    padding-top: 9px;
-    overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    position: absolute;
-    top: 710px;
-    left: -230px;
+    top: 1012px;
+    left: 158px;
 }
 .third-content {
     width: 39%;
     height: 87px;
     padding-top: 9px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 664px;
-    left: -62px;
+    top: 693px;
+    left: -38px;
 }
   .buy-container {
     width: 100%;
@@ -2755,11 +2657,9 @@ img.wow.slideInUp.model-img {
     width: 91%;
     position: absolute;
     top: 798px;
-    height: 202px;
+    height: 201px;
     left: 15px;
-    background: linear-gradient(
-270deg
-, #ce1b28bd 0%, #111111de 74%);
+    background: linear-gradient( 270deg , #ce1b28bd 0%, #111111de 74%);
 }
   button.shape-button {
     background-color: #9f2332;
@@ -3329,6 +3229,17 @@ img.wow.slideInUp.model-img {
     height: 2532px;
   }
 }
+@media (max-width: 412px) {
+.third-content {
+    width: 39%;
+    height: 87px;
+    padding-top: 9px;
+    overflow: hidden;
+    position: absolute;
+    top: 693px;
+    left: -383px;
+}
+}
 @media (max-width: 411px) {
   .container {
     max-width: 100%;
@@ -3407,12 +3318,12 @@ img.wow.slideInUp.model-img {
     display: block;
     height: 474px;
   }
-  .mobile-container a.icon {
+.mobile-container a.icon {
     display: block;
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 0;
-  }
+}
   #mylinks {
     margin-left: 281px;
     background-color: #752b2e;
@@ -3558,7 +3469,7 @@ img.wow.slideInUp.model-img {
     position: relative;
     top: 130px;
   }
-  #shape {
+#shape {
     position: absolute;
     top: 164px;
     color: rgba(255, 255, 255, 0.5);
@@ -3566,7 +3477,7 @@ img.wow.slideInUp.model-img {
     display: flex;
     justify-content: center;
     border-top: 0;
-    width: 411px;
+    width: 390px;
     min-height: 210px;
     overflow: hidden;
     text-align: center;
@@ -3630,12 +3541,13 @@ img.wow.slideInUp.model-img {
     padding-top: 31px;
     font-size: 22px;
 }
-  .content {
+.content {
     text-align: center;
     line-height: 61px;
     color: #252424;
     width: 100%;
-  }
+    margin-left: -18px;
+}
   a.icon.fa-line-chart {
     font-family: "FontAwesome";
     font-size: 3rem;
@@ -3646,12 +3558,13 @@ img.wow.slideInUp.model-img {
     font-size: 3rem;
     color: #ffffff;
   }
-  a.icon.fa-qrcode {
+a.icon.fa-qrcode {
     font-family: "FontAwesome";
     font-size: 3rem;
     color: #ffffff;
     text-decoration: none;
-  }
+    margin-left: 37px;
+}
   .content h3 {
     font-size: 14px;
   }
@@ -3689,32 +3602,22 @@ img.wow.slideInUp.model-img {
     width: 85%;
     height: 85%;
   }
-  .first-content {
+.first-content {
     width: 39%;
-    height: 87px;
+    height: 116px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 688px;
-  }
-.second-content {
-    width: 39%;
-    height: 87px;
-    overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    position: absolute;
-    top: 684px;
-    left: -230px;
+    top: 1026px;
+    left: 152px;
 }
-  .third-content {
+.third-content {
     width: 40%;
     height: 87px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 658px;
-    left: -71px;
-  }
+    top: 706px;
+    left: -44px;
+}
   .buy-container {
     width: 100%;
     margin-top: 9px;
@@ -3727,14 +3630,14 @@ img.wow.slideInUp.model-img {
     padding-top: 0px;
     position: relative;
   }
-  .buy-shape-container {
+.buy-shape-container {
     width: 91%;
     position: absolute;
-    top: 797px;
-    height: 202px;
+    top: 798px;
+    height: 192px;
     left: 15px;
     background: linear-gradient(270deg, #ce1b28bd 0%, #111111de 74%);
-  }
+}
   button.shape-button {
     background-color: #9f2332;
     border: none;
@@ -3889,14 +3792,14 @@ img.wow.slideInUp.model-img {
     width: 56px;
     height: 26px;
   }
-  .copyright-container {
-    margin-top: 5px;
+.copyright-container {
+    margin-top: 13px;
     border-top: 1px solid;
     font-size: 11px;
     opacity: 0.5;
     padding: 1rem 0;
     text-align: center;
-  }
+}
   #back-to-top {
     position: fixed;
     bottom: 189px;
@@ -4664,32 +4567,20 @@ img.wow.slideInUp.model-img {
 }
 .first-content {
     width: 39%;
-    height: 87px;
+    height: 116px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 667px;
-    left: -97px;
-}
-.second-content {
-    width: 39%;
-    height: 87px;
-    padding-top: 9px;
-    overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    position: absolute;
-    top: 690px;
-    left: -241px;
+    top: 983px;
+    left: 119px;
 }
 .third-content {
     width: 37%;
     height: 87px;
     padding-top: 9px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 646px;
-    left: -80px;
+    top: 664px;
+    left: -29px;
 }
   .buy-container {
     width: 100%;
@@ -5269,40 +5160,27 @@ img.wow.slideInUp.model-img {
     width: 100%;
     height: 91%;
   }
-  .first-content {
+.first-content {
     width: 34%;
-    margin-left: 97px;
-    height: 103px;
+    margin-left: 70px;
+    height: 108px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
-    top: 647px;
-  }
+    top: 962px;
+}
   .first-content:hover {
     background-color: #ffffff0d;
   }
-  .second-content {
-    width: 33%;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 103px;
-    position: absolute;
-    overflow: hidden;
-    top: 644px;
-    right: 120px;
-  }
-  .second-content:hover {
-    background-color: #ffffff0d;
-  }
-  .third-content {
+
+.third-content {
     width: 34%;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    height: 103px;
+    height: 79px;
     margin-top: auto;
     overflow: hidden;
     position: absolute;
-    top: 624px;
-    left: -88px;
-  }
+    top: 598px;
+    left: -30px;
+}
   .buy-container {
     width: 360px;
     margin-top: 0px;
@@ -6287,25 +6165,14 @@ img.wow.slideInUp.model-img {
     width: 39%;
     height: 87px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
     top: 649px;
     left: -98px;
-}
-.second-content {
-    width: 39%;
-    height: 87px;
-    overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    position: absolute;
-    top: 645px;
-    left: -258px;
 }
 .third-content {
     width: 39%;
     height: 87px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
     position: absolute;
     top: 627px;
     left: -119px;
@@ -7243,14 +7110,13 @@ img.wow.slideInUp.model-img {
     background: linear-gradient(to bottom, #303030 0%, #94292e 100%);
     height: 198px;
   }
-  .highlights {
+.highlights {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: -77px;
-    margin-left: -2px;
-  }
+}
   .inner h2 {
     width: 82%;
     margin-left: 23px;
@@ -7262,12 +7128,13 @@ img.wow.slideInUp.model-img {
     padding-top: 31px;
     font-size: 20px;
   }
-  .content {
+.content {
     text-align: center;
     line-height: 61px;
     color: #252424;
     width: 100%;
-  }
+    margin-left: 0px;
+}
   a.icon.fa-line-chart {
     font-family: "FontAwesome";
     font-size: 2rem;
@@ -7329,29 +7196,18 @@ img#one-img {
     margin-top: -48px;
 }
 .first-content {
-    width: 44%;
-    height: 89px;
+    width: 39%;
+    margin-left: 115px;
+    height: 116px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -40px;
-    margin-left: 98px;
+    margin-top: -99px;
 }
-.second-content {
+.third-content {
     width: 44%;
-    height: 89px;
-    padding-top: 9px;
+    height: 87px;
     overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -86px;
-    margin-left: 337px;
-}
- .third-content {
-    width: 44%;
-    height: 89px;
-    overflow: hidden;
-    box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-    margin-top: -20px;
-    margin-left: 276px;
+    margin-top: -48px;
+    margin-left: 257px;
 }
   .buy-container {
     width: 100%;
