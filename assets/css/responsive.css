@@ -2639,7 +2639,7 @@ img.wow.slideInUp.model-img {
     overflow: hidden;
     position: absolute;
     top: 693px;
-    left: -38px;
+    left: -380px;
 }
   .buy-container {
     width: 100%;
@@ -3616,7 +3616,7 @@ a.icon.fa-qrcode {
     overflow: hidden;
     position: absolute;
     top: 706px;
-    left: -44px;
+    left: -387px;
 }
   .buy-container {
     width: 100%;
@@ -4571,7 +4571,7 @@ img.wow.slideInUp.model-img {
     overflow: hidden;
     position: absolute;
     top: 983px;
-    left: 119px;
+    left: 154px;
 }
 .third-content {
     width: 37%;
@@ -4580,7 +4580,7 @@ img.wow.slideInUp.model-img {
     overflow: hidden;
     position: absolute;
     top: 664px;
-    left: -29px;
+    left: -403px;
 }
   .buy-container {
     width: 100%;
@@ -5144,14 +5144,14 @@ img.wow.slideInUp.model-img {
   .model-caption h2 {
     font-size: 22px;
   }
-  .model-caption {
+ .model-caption {
     width: 50%;
     text-align: center;
     color: white;
     font-family: "FontAwesome";
-    margin-left: 90px;
-    margin-top: -43px;
-  }
+    margin-left: 94px;
+    margin-top: -20px;
+}
   img.wow.lightSpeedIn.model-img {
     width: 100%;
     height: 91%;
@@ -5162,11 +5162,11 @@ img.wow.slideInUp.model-img {
   }
 .first-content {
     width: 34%;
-    margin-left: 70px;
     height: 108px;
     overflow: hidden;
     position: absolute;
     top: 962px;
+    left: 161px;
 }
   .first-content:hover {
     background-color: #ffffff0d;
@@ -5179,7 +5179,7 @@ img.wow.slideInUp.model-img {
     overflow: hidden;
     position: absolute;
     top: 598px;
-    left: -30px;
+    left: -395px;
 }
   .buy-container {
     width: 360px;
