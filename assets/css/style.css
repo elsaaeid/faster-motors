@@ -569,36 +569,25 @@ img.wow.slideInUp.model-img {
   height: 85%;
 }
 .first-content {
-  width: 30%;
-  margin-left: 48px;
-  height: 242px;
-  padding-top: 37px;
-  overflow: hidden;
-  box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
+    width: 30%;
+    margin-left: 366px;
+    height: 258px;
+    padding-top: 37px;
+    overflow: hidden;
 }
 .first-content:hover {
   background-color: #ffffff0d;
-}
-.second-content {
-  width: 30%;
-  margin-left: 665px;
-  box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-  height: 242px;
-  position: absolute;
-  overflow: hidden;
-  margin-top: -57px;
 }
 .second-content:hover {
   background-color: #ffffff0d;
 }
 .third-content {
-  width: 30%;
-  margin-left: 1220px;
-  box-shadow: 9px 9px 30px 0px rgb(0 0 0 / 30%);
-  height: 242px;
-  padding-top: 38px;
-  margin-top: -240px;
-  overflow: hidden;
+    width: 30%;
+    margin-left: 895px;
+    height: 259px;
+    padding-top: 38px;
+    margin-top: -259px;
+    overflow: hidden;
 }
 .third-content:hover {
   background-color: #ffffff0d;
