@@ -460,7 +460,6 @@ h1.Motors:hover {
     background-color: black;
   }
 }
-
 /*------------------------
     wrapper
 ----------------------*/
@@ -1255,10 +1254,10 @@ button.order-by.dropdown-toggle.arrow.nav-link-hover:hover {
   display: block;
 }
 .type-lb {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 8;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 8;
 }
 .type-lb .new {
   background: #454545;
@@ -1286,12 +1285,12 @@ button.order-by.dropdown-toggle.arrow.nav-link-hover:hover {
   font-weight: 600;
 }
 .mask-icon {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
 }
 .mask-icon ul {
   display: inline-block;
