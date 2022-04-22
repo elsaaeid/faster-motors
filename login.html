@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -142,22 +142,74 @@
             </div>
         </div>
         <!-- end header -->
-        <!-- start headline-->
-        <div class="headline3">
-            <!-- Start Top Search -->
+<!-- Start Top Search -->
             <div class="search-container">
                 <div class="top-search" style="display: none;">
                     <div id="input-group">
                         <span class="input-group-addon"><i class="fa fa-search fixed"></i></span>
                         <div class="clear"></div>
-                        <input type="text" class="form-control fixed" placeholder="البحث">
+                        <input onkeyup="search()" type="text" class="form-control" placeholder="Search" id="search-item">
                         <span class="input-group-addon close-search"><i class="fa fa-times fixed"></i></span>
+         		 <div class="product-list" id="product-list" style="display:none;">
+                          <a href="new-cars.html">
+                           <div class="product">
+		               <img src="assets/images/shop/a.jpg" alt="img" style="width:50px;height:50px">
+		                 <div class="p-details">		
+		                   <h2>سيارات جديده</h2>
+		                   <h2>5$</h2>
+		                 </div>
+	                    </div>
+                           </a>
+                           <a href="used-cars.html">
+                          <div class="product">
+		                 <img src="assets/images/shop/b.jpg" alt="img" style="width:50px;height:50px">
+		                  <div class="p-details">
+		                    <h2>سيارات مستعمله</h2>
+		                    <h2>5$</h2>
+		                  </div>
+	                  </div>
+                          </a>
+                          <a href="motors.html">
+                         <div class="product">
+		                  <img src="assets/images/shop/1.jpg" alt="img" style="width:50px;height:50px"> 
+		                  <div class="p-details">
+		                     <h2>موتوسيكلات</h2>
+		                     <h2>5$</h2>
+		                  </div>
+	                  </div>
+                          </a>
+                          <a href="boats.html">
+                         <div class="product">
+		                  <img src="assets/images/shop/111.jpg" alt="img" style="width:50px;height:50px"> 
+		                  <div class="p-details">
+		                     <h2>قوارب</h2>
+		                     <h2>5$</h2>
+		                  </div>
+	                  </div>
+                          </a>
+                          <a href="showroom.html">
+                         <div class="product">
+		                  <div class="p-details">
+		                     <h2>العروض</h2>
+		                  </div>
+	                  </div>
+                          </a>
+                          <a href="latest-news.html">
+                         <div class="product">
+		                  <div class="p-details">
+		                     <h2>اخر الاخبار</h2>
+		                  </div>
+	                  </div>
+                          </a>
+                       </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
             <div class="clear"></div>
             <!-- End Top Search -->
+        <!-- start headline-->
+        <div class="headline3">
             <div class="login-content">
                 <div class="user-circle"><i class="fal fa-user-circle">
                     </i>
@@ -400,6 +452,28 @@
     <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <!-- custom js -->
     <script src="assets/js/custom.js"></script>
+
+     <script>
+   const search = () =>{
+    const searchbox = document.getElementById("search-item").value.toUpperCase();
+    const storeitems = document.getElementById("product-list");
+    const product = document.querySelectorAll(".product");
+    const pname = document.getElementsByTagName("h2");
+
+    for(var i=0; i < pname.length; i++){
+       let match = product[i].getElementsByTagName('h2')[0];
+       if(match){
+ 	   let textvalue = match.textContent || match.innerHTML
+           if(textvalue.toUpperCase().indexOf(searchbox) > -1){
+	    storeitems.style.display = "block";
+            product[i].style.display = "";
+	}else{
+           product[i].style.display = "none";
+	}
+	}
+    }
+  }
+  </script>  
 </body>
 
 </html>
